@@ -4,6 +4,7 @@
     include("inc/functions.php");
     include("inc/news_database.php");
     show_active_page();
+    
     ?>
 <!doctype html>
 <html>
