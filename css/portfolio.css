@@ -89,11 +89,6 @@ body{
     color:white;
 }
 
-
-
-
-
-
 @media (min-width: 992px) {
   .title-bar .col-sm-8, .title-bar .col-sm-8 div{
     text-align: right;
@@ -101,4 +96,16 @@ body{
     .title-bar .col-xs-8{
         font-size: 2em;
 }
+}
+
+/* Heliowire styles */
+.glyphicon{
+    color:orange;
+}
+
+.mainlogo{
+    size:150%;
+}
+.maintitle{
+    display:block;
 }
