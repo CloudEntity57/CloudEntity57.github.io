@@ -29,7 +29,7 @@ $links = [
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
-        url: "./heliowire/index.php",
+        url: "https://frozen-journey-83037.herokuapp.com/index.php",
         title: "Heliowire.com"
     }
 ];
