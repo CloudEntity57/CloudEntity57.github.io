@@ -11,10 +11,8 @@
 <head>
     <meta charset = "utf-8">
     <title>Heliowire</title>
-    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link  href="./css/myStyles.css" rel="stylesheet" type="text/css">
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link  href="./css/portfolio.css" rel="stylesheet" type="text/css">
 </head>
 <header class="page-header lead">
     <nav class="homeheader navbar navbar-fixed-top navbar-inverse">
