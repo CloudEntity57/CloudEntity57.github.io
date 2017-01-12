@@ -31,6 +31,11 @@ $links = [
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
         url: "https://frozen-journey-83037.herokuapp.com/index.php",
         title: "Heliowire.com"
+    },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
+        url: "https://limitless-reaches-19249.herokuapp.com",
+        title: "Pencil, Paper, Scissors"
     }
 ];
 
