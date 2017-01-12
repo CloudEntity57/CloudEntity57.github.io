@@ -20,7 +20,7 @@ $links = [
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
-        title: "Allen Brothers Commercial Website"
+        title: "Allen Brothers Commercial Website" 
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
@@ -36,16 +36,29 @@ $links = [
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
         url: "https://limitless-reaches-19249.herokuapp.com",
         title: "Pencil, Paper, Scissors"
+    },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png",
+        url: "https://cryptic-peak-65100.herokuapp.com/",
+        title: "Favorite Albums Bulletin Board"
     }
 ];
-
+http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png
 //Populate the portfolio with links
 
 var $portfolio_area = $('.links');
 
 console.log('doing something');
 function populate_portfolio(area,links,x){
-         area.append("<div class='link col-xs-6'><div class='link-title'></div><a href = '" + links[x].url + "' title = '" + links[x].title + "'><img class = 'img-responsive' src = '" + links[x].photo + "' alt='" + links[x].title + "'></a></div>");
+
+
+  var links = ["<div class='link col-xs-6'>",
+            "<div class='link-title'></div><a href = '",
+             links[x].url,"' title = '",links[x].title,"'><div class = 'portfolio-image' style = 'background-image:url(",links[x].photo,")' alt='", links[x].title, "'></div>",
+             "</a>",
+             "</div>"].join('');
+         area.append(links);
+
     }
 
 

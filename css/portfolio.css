@@ -1,6 +1,7 @@
 body{
   background-color: gray;
 }
+
 .navbar{
     height:110px;
     padding-top:25px;
@@ -33,6 +34,13 @@ body{
 .portfolio{
     background-color:lightgrey;
     margin-bottom: 0px;
+}
+
+.portfolio-image{
+  height:35vh;
+  width:100%;
+  background-size:cover;
+  background-position: center;
 }
 
 .portfolio_name, .portfolio_contact{
@@ -90,12 +98,16 @@ body{
 }
 
 @media (min-width: 992px) {
-  .title-bar .col-sm-8, .title-bar .col-sm-8 div{
-    text-align: right;
-}
+    .title-bar .col-sm-8, .title-bar .col-sm-8 div{
+      text-align: right;
+    }
     .title-bar .col-xs-8{
-        font-size: 2em;
-}
+      font-size: 2em;
+    }
+    .portfolio-image{
+      height:60vh;
+      width:100%;
+    }
 }
 
 /* Heliowire styles */
