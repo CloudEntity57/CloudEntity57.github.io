@@ -20,7 +20,7 @@ $links = [
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
-        title: "Allen Brothers Commercial Website" 
+        title: "Allen Brothers Commercial Website"
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
@@ -38,7 +38,7 @@ $links = [
         title: "Pencil, Paper, Scissors"
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png",
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
         url: "https://cryptic-peak-65100.herokuapp.com/",
         title: "Favorite Albums Bulletin Board"
     }
