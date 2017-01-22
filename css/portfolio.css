@@ -13,6 +13,10 @@ body{
     font-size: 40px;
 }
 
+.navbar-default{
+  background-color: #222;
+}
+
 .title-bar{
     padding:30px;
     background-image:url("http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475688772/IMG_6375_fsyhg5.jpg");
@@ -40,7 +44,7 @@ body{
   height:35vh;
   width:100%;
   background-size:cover;
-  background-position: center;
+  background-position: top left;
 }
 
 .portfolio_name, .portfolio_contact{
@@ -97,7 +101,7 @@ body{
     color:white;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 568px) {
     .title-bar .col-sm-8, .title-bar .col-sm-8 div{
       text-align: right;
     }
@@ -109,6 +113,7 @@ body{
       width:100%;
     }
 }
+
 
 /* Heliowire styles */
 .glyphicon{

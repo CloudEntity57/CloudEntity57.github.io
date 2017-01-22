@@ -52,7 +52,7 @@ console.log('doing something');
 function populate_portfolio(area,links,x){
 
 
-  var links = ["<div class='link col-xs-6'>",
+  var links = ["<div class='link col-xs-12 col-md-6'>",
             "<div class='link-title'></div><a href = '",
              links[x].url,"' title = '",links[x].title,"'><div class = 'portfolio-image' style = 'background-image:url(",links[x].photo,")' alt='", links[x].title, "'></div>",
              "</a>",
