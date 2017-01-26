@@ -40,11 +40,28 @@ body{
     margin-bottom: 0px;
 }
 
+.portfolio-entry a{
+    text-decoration: none;
+    color:#333;
+}
+
 .portfolio-image{
-  height:35vh;
-  width:100%;
-  background-size:cover;
-  background-position: top left;
+    height:35vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: top center;
+}
+.portfolio-text{
+  margin:0em 3em;
+}
+.portfolio-title{
+  margin:10px 0px;
+  font-size:1.35em;
+}
+
+.fa-cogs{
+    margin:2em 0em;
 }
 
 .portfolio_name, .portfolio_contact{
@@ -109,9 +126,13 @@ body{
       font-size: 2em;
     }
     .portfolio-image{
-      height:60vh;
+      height:50vh;
       width:100%;
     }
+    .portfolio-text{
+      margin:0em 4em;
+    }
+
 }
 
 

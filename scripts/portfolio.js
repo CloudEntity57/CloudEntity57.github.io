@@ -20,27 +20,32 @@ $links = [
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
-        title: "Allen Brothers Commercial Website"
+        title: "Allen Brothers Commercial Site",
+        text:"PHP driven responsive site for real estate brokerage. Includes form that emails submissions to site owners"
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
         url: "http://allenbrothersrealtors.com/Home",
-        title: "Allen Brothers Residential Website"
+        title: "Allen Brothers Residential Site",
+        text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
         url: "https://frozen-journey-83037.herokuapp.com/index.php",
-        title: "Heliowire.com"
+        title: "Heliowire.com",
+        text:"PHP driven responsive template for a solar energy news hub. Connects to Reddit Solar News API and displays latest news feed."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
         url: "https://limitless-reaches-19249.herokuapp.com",
-        title: "Pencil, Paper, Scissors"
+        title: "Pencil, Paper, Scissors",
+        text:"Site built with Node.js and Express.js - RESTful MongoDB database, along with search feature that connects to Amazon API and saves user wishlists. Features OAuth authentication."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
         url: "https://cryptic-peak-65100.herokuapp.com/",
-        title: "Favorite Albums Bulletin Board"
+        title: "Favorite Albums Bulletin Board",
+        text:"Online database where favorite albums can be stored on RESTful CRUD database built with Express.js and MongoDB."
     }
 ];
 http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png
@@ -52,10 +57,16 @@ console.log('doing something');
 function populate_portfolio(area,links,x){
 
 
-  var links = ["<div class='link col-xs-12 col-md-6'>",
+  var links = ["<div class='portfolio-entry link col-xs-12 col-md-6'>",
             "<div class='link-title'></div><a href = '",
              links[x].url,"' title = '",links[x].title,"'><div class = 'portfolio-image' style = 'background-image:url(",links[x].photo,")' alt='", links[x].title, "'></div>",
+             "<div class='portfolio-title'>", links[x].title, "</div>",
+             "<div class='fa fa-ellipsis-h'></div>",
+             "<div class='portfolio-text'>",
+               links[x].text,
+             "</div>",
              "</a>",
+           "<i class='fa fa-cogs' aria-hidden='true'></i>",
              "</div>"].join('');
          area.append(links);
 
