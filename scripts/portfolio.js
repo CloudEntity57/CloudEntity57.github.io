@@ -12,16 +12,36 @@ $(".navbar-left img").css("width",(.90 * $height));
 // Create array with portfolio link info
 //
 $links = [
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_836/v1475689009/IMG_5141_pijqjm.jpg",
-        url: "#",
-        title: "Coming Soon"
-    },
+
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
         title: "Allen Brothers Commercial Site",
-        text:"PHP driven responsive site for real estate brokerage. Includes form that emails submissions to site owners"
+        text:"PHP driven responsive site for real estate brokerage. Includes a form that emails submissions to owner while protecting against cross-site scripting attacks."
+    },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
+        url: "https://frozen-journey-83037.herokuapp.com/index.php",
+        title: "Heliowire.com",
+        text:"PHP driven responsive template for a solar energy news hub. Currently connects to Reddit Solar News API and displays the latest feed."
+    },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
+        url: "https://limitless-reaches-19249.herokuapp.com",
+        title: "Pencil, Paper, Scissors",
+        text:"Site built with Node.js and Express.js - RESTful MongoDB database, along with search feature that connects to the Amazon API with AJAX and saves shopping lists in real time with AJAX POST requests."
+    },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
+        url: "https://cryptic-peak-65100.herokuapp.com/",
+        title: "Favorite Albums Bulletin Board",
+        text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
+    },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
+        url: "http://allenbrothersrealtors.com/Home",
+        title: "Allen Brothers Residential Site",
+        text:"Existing CMS website cleaned up and made professional with jQuery and JavaScript DOM manipulation on the front end. Full mobile responsivity added with Bootstrap and raw CSS; previously unusable."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
@@ -30,22 +50,16 @@ $links = [
         text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
-        url: "https://frozen-journey-83037.herokuapp.com/index.php",
-        title: "Heliowire.com",
-        text:"PHP driven responsive template for a solar energy news hub. Connects to Reddit Solar News API and displays latest news feed."
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
+        url: "http://allenbrothersrealtors.com/Home",
+        title: "Allen Brothers Residential Site",
+        text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
-        url: "https://limitless-reaches-19249.herokuapp.com",
-        title: "Pencil, Paper, Scissors",
-        text:"Site built with Node.js and Express.js - RESTful MongoDB database, along with search feature that connects to Amazon API and saves user wishlists. Features OAuth authentication."
-    },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
-        url: "https://cryptic-peak-65100.herokuapp.com/",
-        title: "Favorite Albums Bulletin Board",
-        text:"Online database where favorite albums can be stored on RESTful CRUD database built with Express.js and MongoDB."
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
+        url: "http://allenbrothersrealtors.com/Home",
+        title: "Allen Brothers Residential Site",
+        text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
     }
 ];
 http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png
@@ -73,7 +87,7 @@ function populate_portfolio(area,links,x){
     }
 
 
-for(i=1; i<= $links.length-1; i++){
+for(i=0; i<= $links.length-1; i++){
 
   populate_portfolio($portfolio_area,$links,i);
 

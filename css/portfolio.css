@@ -39,6 +39,9 @@ body{
     background-color:lightgrey;
     margin-bottom: 0px;
 }
+/*.portfolio-entry{
+    height:110vh
+}*/
 
 .portfolio-entry a{
     text-decoration: none;
@@ -54,6 +57,7 @@ body{
 }
 .portfolio-text{
   margin:0em 3em;
+  height:25vh;
 }
 .portfolio-title{
   margin:10px 0px;
@@ -129,13 +133,16 @@ body{
       height:50vh;
       width:100%;
     }
-    .portfolio-text{
-      margin:0em 4em;
-    }
+
 
 }
 
 
+@media (min-width: 768px) {
+  .portfolio-text{
+    margin:0em 3.5em;
+  }
+}
 /* Heliowire styles */
 .glyphicon{
     color:orange;
