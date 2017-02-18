@@ -26,6 +26,12 @@ $links = [
         text:"Project in React.js and Firebase that stores a user's songs for automatic organization into performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
     },
     {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
+        url: "https://cryptic-peak-65100.herokuapp.com/",
+        title: "Favorite Albums Bulletin Board",
+        text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
+    },
+    {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
         url: "https://frozen-journey-83037.herokuapp.com/index.php",
         title: "Heliowire.com",
@@ -36,12 +42,6 @@ $links = [
         url: "https://limitless-reaches-19249.herokuapp.com",
         title: "Pencil, Paper, Scissors",
         text:"Site built with Node.js and Express.js - RESTful MongoDB database, along with search feature that connects to the Amazon API with AJAX and saves shopping lists in real time with AJAX POST requests."
-    },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
-        url: "https://cryptic-peak-65100.herokuapp.com/",
-        title: "Favorite Albums Bulletin Board",
-        text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
