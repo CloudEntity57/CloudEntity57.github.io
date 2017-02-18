@@ -20,6 +20,12 @@ $links = [
         text:"PHP driven responsive site for real estate brokerage. Includes a form that emails submissions to owner while protecting against cross-site scripting attacks."
     },
     {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487384049/FatGiggler_uor5zg.png",
+        url: "https://smartset-7a283.firebaseapp.co",
+        title: "Musician's Gig Generator",
+        text:"Project in React.js and Firebase that stores a user's songs for automatic organization into performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
+    },
+    {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
         url: "https://frozen-journey-83037.herokuapp.com/index.php",
         title: "Heliowire.com",
@@ -44,22 +50,16 @@ $links = [
         text:"Existing CMS website cleaned up and made professional with jQuery and JavaScript DOM manipulation on the front end. Full mobile responsivity added with Bootstrap and raw CSS; previously unusable."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122562/IMG_5141-compressed_eorbdj.jpg",
         url: "http://allenbrothersrealtors.com/Home",
-        title: "Allen Brothers Residential Site",
-        text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
+        title: "Coming Soon",
+        text:"Many more projects in the works at all times!"
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122562/IMG_5141-compressed_eorbdj.jpg",
         url: "http://allenbrothersrealtors.com/Home",
-        title: "Allen Brothers Residential Site",
-        text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
-    },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
-        url: "http://allenbrothersrealtors.com/Home",
-        title: "Allen Brothers Residential Site",
-        text:"Existing CMS website cleaned up and made professional with jQuery, JavaScript DOM manipulation on the front end. Full responsiveness added; previously weak at best."
+        title: "Coming Soon",
+        text:"Many more projects in the works at all times!"
     }
 ];
 http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png
@@ -103,7 +103,6 @@ if($links.length < 6){
 $('a').on('click',function(e){
         e.preventDefault();
         if(/^#/.test($(this).attr('href'))){
-          console.log('slowly');
           var target = this.hash;
           var $target = $(target);
 
