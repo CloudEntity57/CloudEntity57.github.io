@@ -20,7 +20,7 @@ $links = [
         text:"PHP driven responsive site for real estate brokerage. Includes a form that emails submissions to owner while protecting against cross-site scripting attacks."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487384049/FatGiggler_uor5zg.png",
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_373/v1487384049/FatGiggler_uor5zg.png",
         url: "https://smartset-7a283.firebaseapp.co",
         title: "Musician's Gig Generator",
         text:"Project in React.js and Firebase that stores a user's songs for automatic organization into performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
