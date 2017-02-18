@@ -21,9 +21,9 @@ $links = [
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_373/v1487384049/FatGiggler_uor5zg.png",
-        url: "https://smartset-7a283.firebaseapp.co",
+        url: "https://smartset-7a283.firebaseapp.com",
         title: "Musician's Gig Generator",
-        text:"Project in React.js and Firebase that stores a user's songs for automatic organization into performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
+        text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
