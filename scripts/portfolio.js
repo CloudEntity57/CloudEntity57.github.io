@@ -26,6 +26,12 @@ $links = [
         text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
     },
     {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487626184/GistAlt_cbtify.png",
+        url: "https://notesapp-edb56.firebaseapp.com",
+        title: "Developer Notes Tool",
+        text:"A searchable database of all your individual notes appears when you log in, and it's easy to assign web-related color categories to notes as you create them. Built with React.js and Firebase."
+    },
+    {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
         url: "https://cryptic-peak-65100.herokuapp.com/",
         title: "Favorite Albums Bulletin Board",
