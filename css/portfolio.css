@@ -56,8 +56,10 @@ body{
     background-position: top center;
 }
 .portfolio-text{
+  font-size: .85em;
   margin:0em 3em;
-  height:25vh;
+  height:30vh;
+  overflow: scroll;
 }
 .portfolio-title{
   margin:10px 0px;
@@ -74,7 +76,7 @@ body{
     margin-bottom: 15px;
 }
 
-.links,.contact{
+.links{
     border-bottom: 3px solid darkgrey;
     margin-bottom:15px;
 }
