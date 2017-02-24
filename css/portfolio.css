@@ -141,6 +141,7 @@ body{
 @media (min-width: 768px) {
   .portfolio-text{
     margin:0em 3.5em;
+    font-size: .75em;
   }
 }
 /* Heliowire styles */
