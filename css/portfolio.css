@@ -57,7 +57,7 @@ body{
 }
 .portfolio-text{
   margin:0em 3em;
-  height:25vh;
+  height:20vh;
 }
 .portfolio-title{
   margin:10px 0px;
@@ -137,11 +137,16 @@ body{
 
 }
 
-
 @media (min-width: 768px) {
   .portfolio-text{
     margin:0em 3.5em;
     font-size: .75em;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-text{
+    height:15vh;
   }
 }
 /* Heliowire styles */
