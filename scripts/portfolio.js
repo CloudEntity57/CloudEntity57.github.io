@@ -44,11 +44,17 @@ $links = [
         text:"PHP driven responsive template for a solar energy news hub. Currently connects to Reddit Solar News API and displays the latest feed."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
-        url: "https://limitless-reaches-19249.herokuapp.com",
-        title: "Pencil, Paper, Scissors",
-        text:"Site built with Node.js and Express.js - RESTful MongoDB database, along with search feature that connects to the Amazon API with AJAX and saves shopping lists in real time with AJAX POST requests."
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487829847/clouds_lvmllc.png",
+        url: "/3x+1/3x+1.htm",
+        title: "Collatz Conjecture",
+        text:"Simple single page application allowing users to plot the iterations of a particular mathematical function. JavaScript, jQuery & Bootstrap."
     },
+    // {
+    //     photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484190674/Web_shot_bz0men.png",
+    //     url: "https://limitless-reaches-19249.herokuapp.com",
+    //     title: "Pencil, Paper, Scissors",
+    //     text:"Site built with Node.js and Express.js - RESTful MongoDB database, along with search feature that connects to the Amazon API with AJAX and saves shopping lists in real time with AJAX POST requests."
+    // },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689267/Houston_TX_empn2d.jpg",
         url: "http://allenbrothersrealtors.com/Home",
