@@ -12,7 +12,12 @@ $(".navbar-left img").css("width",(.90 * $height));
 // Create array with portfolio link info
 //
 $links = [
-
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1489469596/SmartSet_syppej.png",
+        url: "https://smartset-7a283.firebaseapp.com",
+        title: "SmartSet Musician Gig Generator",
+        text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
+    },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
@@ -20,16 +25,10 @@ $links = [
         text:"PHP driven responsive site for real estate brokerage. Includes a form that emails submissions to owner while protecting against cross-site scripting attacks."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_373/v1487384049/FatGiggler_uor5zg.png",
-        url: "https://smartset-7a283.firebaseapp.com",
-        title: "Musician's Gig Generator",
-        text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
-    },
-    {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487626184/GistAlt_cbtify.png",
         url: "https://notesapp-edb56.firebaseapp.com",
         title: "Developer Notes Tool",
-        text:"A searchable database of all your individual notes appears when you log in, and it's easy to assign web-related color categories to notes as you create them. Built with React.js and Firebase."
+        text:"(Team project) A searchable database of all your individual notes appears when you log in, and it's easy to assign web-related color categories to notes as you create them. Built with React.js and Firebase."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
@@ -149,3 +148,35 @@ $('a').on('click',function(e){
 //     };
 //         i = 0;
 // };
+
+//create prime number generator
+
+// let makePrimes = (num)=>{
+//   let primes = [1];
+//   let prime = false;
+//   let candidate = 2;
+//   let divisor = 2;
+//   for(let i=1; i<=num; i++){
+//       while(!prime){
+//         //go up from 1
+//         while((candidate/divisor)%1 !== 0){
+//           divisor++;
+//         }
+//         //check if divisor made it to candidate (thus a prime)
+//         if(candidate===divisor){
+//           primes.push(candidate);
+//           candidate++;
+//           prime=true;
+//           divisor = 2;
+//         }else{
+//           candidate++;
+//           divisor=2;
+//         }
+//       }
+//       prime = false;
+//   }
+//   console.log(primes);
+//   return primes;
+// }
+// //make the first 6000 prime numbers:
+// makePrimes(6000);
