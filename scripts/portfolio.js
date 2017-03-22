@@ -13,8 +13,7 @@ $(".navbar-left img").css("width",(.90 * $height));
 //
 $links = [
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1489469596/SmartSet_syppej.png",
-        url: "https://smartset-7a283.firebaseapp.com",
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_564/v1489470677/Untitled_picture_c8abxv.jpg",
         title: "SmartSet Musician Gig Generator",
         text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
     },
