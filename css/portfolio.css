@@ -24,14 +24,14 @@ body{
     background-size:cover;
 }
 .title-opacity{
-  position: absolute;
-  top:110px;
-  left:0;
   width:100%;
   background-color:black;
   opacity:.5;
+  z-index: 2;
 }
-
+.title-text{
+  z-index:3;
+}
 .title-bar .col-sm-4{
     text-align: center;
 }
