@@ -20,7 +20,16 @@ body{
 .title-bar{
     padding:30px;
     background-image:url("http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122287/IMG_6375-compressed_eruuiy.jpg");
-    background-size: cover;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.title-opacity{
+  position: absolute;
+  top:110px;
+  left:0;
+  width:100%;
+  background-color:black;
+  opacity:.5;
 }
 
 .title-bar .col-sm-4{
