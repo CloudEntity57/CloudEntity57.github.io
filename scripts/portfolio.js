@@ -3,8 +3,17 @@ $(".navbar li").click(function(){
   $(this).addClass("active");
 });
 
+$(".title-text li").click(function(){
+  $(".navbar li").removeClass("active");
+});
 
-
+//add parallax to scrolling title image:
+$('.title-bar').parallax(
+  {
+    imageSrc: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/a_auto_right/v1490335359/IMG_9417_mzqos1.jpg"
+  }
+);
+$('.title-bar').css('top','110px');
 $height = $('.navbar').height();
 
 $(".navbar-left img").css("width",(.90 * $height));
@@ -65,16 +74,9 @@ $links = [
         url: "http://allenbrothersrealtors.com/Home",
         title: "Coming Soon",
         text:"Many more projects in the works at all times!"
-    },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122562/IMG_5141-compressed_eorbdj.jpg",
-        url: "http://allenbrothersrealtors.com/Home",
-        title: "Coming Soon",
-        text:"Many more projects in the works at all times!"
     }
 ];
-http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png
-//Populate the portfolio with links
+
 
 var $portfolio_area = $('.links');
 
@@ -98,16 +100,19 @@ function populate_portfolio(area,links,x){
     }
 
 
-for(i=0; i<= $links.length-1; i++){
+for(i=0; i< $links.length-1; i++){
 
   populate_portfolio($portfolio_area,$links,i);
 
 };
 
+//If there are less than 6 entries, populate difference with 'coming soon' windows:
+
 if($links.length < 6){
+        let i = $links.length-1
         $extra = 6-$links.length;
         for(x=0;x<=$extra;x++){
-            populate_portfolio($portfolio_area,$links,0);
+            populate_portfolio($portfolio_area,$links,i);
         };
     };
 

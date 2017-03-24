@@ -19,12 +19,16 @@ body{
 
 .title-bar{
     /*background-image:url("http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122287/IMG_6375-compressed_eruuiy.jpg");*/
-    background-image:url("https://lh4.googleusercontent.com/WAxxn8PC9OrcJAZg8i9qc_9gU75AihVjuqsUjDzgDVLKBjrMCr2rzTxI6jL6a_RKTH9hqk1k1CKH61g=w2546-h1450-rw");
-    background-attachment: fixed;
+    /*background-image:url("http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/a_auto_right/v1490335359/IMG_9417_mzqos1.jpg");*/
+    /*background-attachment: fixed;
     background-size:cover;
-    background-position: center;
-}
+    background-repeat: no-repeat;*/
 
+}
+.title-text a{
+  text-decoration: none;
+  color:white;
+}
 .title-opacity{
   width:100%;
   position:absolute;
@@ -35,7 +39,7 @@ body{
   z-index: 1;
 }
 .title-bar, .title-opacity{
-  height: 90vh;
+  height: 100vh;
 }
 .title-text{
   padding:30px;
