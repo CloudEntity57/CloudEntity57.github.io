@@ -18,29 +18,42 @@ body{
 }
 
 .title-bar{
-    padding:30px;
-    background-image:url("http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122287/IMG_6375-compressed_eruuiy.jpg");
+    /*background-image:url("http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122287/IMG_6375-compressed_eruuiy.jpg");*/
+    background-image:url("https://lh4.googleusercontent.com/WAxxn8PC9OrcJAZg8i9qc_9gU75AihVjuqsUjDzgDVLKBjrMCr2rzTxI6jL6a_RKTH9hqk1k1CKH61g=w2546-h1450-rw");
     background-attachment: fixed;
     background-size:cover;
+    background-position: center;
 }
+
 .title-opacity{
   width:100%;
+  position:absolute;
+  top:0;
+  left:0;
   background-color:black;
   opacity:.5;
-  z-index: 2;
+  z-index: 1;
+}
+.title-bar, .title-opacity{
+  height: 90vh;
 }
 .title-text{
-  z-index:3;
+  padding:30px;
+  position:absolute;
+  width:100%;
+  top:110px;
+  z-index: 2;
 }
-.title-bar .col-sm-4{
-    text-align: center;
-}
-.title-bar .col-sm-8{
+
+.title-text .col-sm-12{
     text-align: right;
-    font-weight: bold;
     color: white;
 }
-.title-bar img{
+.lead.col-sm-12 span{
+  color:#ffc0c0;
+}
+
+.title-text img{
     transform: rotate(180deg);
 }
 
@@ -132,10 +145,10 @@ body{
 }
 
 @media (min-width: 568px) {
-    .title-bar .col-sm-8, .title-bar .col-sm-8 div{
+    .title-text .col-sm-8, .title-text .col-sm-8 div{
       text-align: right;
     }
-    .title-bar .col-xs-8{
+    .title-text .col-xs-8{
       font-size: 2em;
     }
     .portfolio-image{
