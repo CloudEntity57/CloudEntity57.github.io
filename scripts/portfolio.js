@@ -115,7 +115,15 @@ if($links.length < 6){
             populate_portfolio($portfolio_area,$links,i);
         };
     };
+//fill empty gap in case of odd number of links:
 
+if($links.length%2 !==1){
+  let i = $links.length-1;
+  populate_portfolio($portfolio_area,$links,i);
+}
+
+
+//
 $('a').on('click',function(e){
         e.preventDefault();
         if(/^#/.test($(this).attr('href'))){
