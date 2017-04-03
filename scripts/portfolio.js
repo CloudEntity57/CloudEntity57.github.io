@@ -31,7 +31,7 @@ $links = [
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_544/v1491262402/SpotifyBrowser_f8qpax.png",
         url: "http://spotifybrowser.firebaseapp.com",
         title: "Spotify Speed Browser",
-        text:"Web App in React browses Spotify by artist, displays albums/tracks, plays sample clips, and allows album toggling. Navigation using browser back button enabled."
+        text:"Single page React.js/Firebase app browses Spotify by artist, displays albums/tracks, plays sample clips, and allows album toggling. Navigation using browser back button enabled with React Router."
     },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
