@@ -28,6 +28,12 @@ $links = [
         text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
     },
     {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_544/v1491262402/SpotifyBrowser_f8qpax.png",
+        url: "http://spotifybrowser.firebaseapp.com",
+        title: "Spotify Speed Browser",
+        text:"Web App in React browses Spotify by artist, displays albums/tracks, plays sample clips, and allows album toggling. Navigation using browser back button enabled."
+    },
+    {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
         title: "Allen Brothers Commercial Site",
@@ -76,7 +82,6 @@ $links = [
         text:"Many more projects in the works at all times!"
     }
 ];
-
 
 var $portfolio_area = $('.links');
 
