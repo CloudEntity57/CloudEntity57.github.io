@@ -10,7 +10,7 @@ $(".title-text li").click(function(){
 //add parallax to scrolling title image:
 $('.title-bar').parallax(
   {
-    imageSrc: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/a_auto_right/v1490335359/IMG_9417_mzqos1.jpg"
+    imageSrc: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/a_auto_right,c_scale,w_710/v1490335359/IMG_9417_mzqos1.jpg"
   }
 );
 $('.title-bar').css('top','110px');
