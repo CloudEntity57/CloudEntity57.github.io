@@ -51,12 +51,12 @@ $links = [
         title: "Favorite Albums Bulletin Board",
         text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
     },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
-        url: "https://frozen-journey-83037.herokuapp.com/index.php",
-        title: "Heliowire.com",
-        text:"PHP driven responsive template for a solar energy news hub. Currently connects to Reddit Solar News API and displays the latest feed."
-    },
+//    {
+  //      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
+    //    url: "https://frozen-journey-83037.herokuapp.com/index.php",
+      //  title: "Heliowire.com",
+        // text:"PHP driven responsive template for a solar energy news hub. Currently connects to Reddit Solar News API and displays the latest feed."
+   // },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487829847/clouds_lvmllc.png",
         url: "/3x+1/3x+1.htm",
