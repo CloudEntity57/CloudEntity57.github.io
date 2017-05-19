@@ -33,6 +33,11 @@ $links = [
         title: "Spotify Speed Browser",
         text:"Single page React.js/Firebase app browses Spotify by artist, displays albums/tracks, plays sample clips, and allows album toggling. Navigation using browser back button enabled with React Router."
     },
+{
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,h_327/v1495221822/Redux_Leaflet_gj7xpa.png",
+        url: "https://reduxleafletapp.firebaseapp.com/",
+        title: "Redux Leaflet App",
+        text:"React/Redux single page app that connects to the Leaflet Maps API using React-Leaflet.js and components from the Material-UI library."    },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
