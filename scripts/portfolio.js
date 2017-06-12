@@ -50,12 +50,12 @@ $links = [
         title: "Developer Notes Tool",
         text:"(Team project) A searchable database of all your individual notes appears when you log in, and it's easy to assign web-related color categories to notes as you create them. Built with React.js and Firebase."
     },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
-        url: "https://cryptic-peak-65100.herokuapp.com/",
-        title: "Favorite Albums Bulletin Board",
-        text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
-    },
+    //{
+      //  photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
+        //url: "https://cryptic-peak-65100.herokuapp.com/",
+       // title: "Favorite Albums Bulletin Board",
+        //text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
+   // },
 //    {
   //      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
     //    url: "https://frozen-journey-83037.herokuapp.com/index.php",
