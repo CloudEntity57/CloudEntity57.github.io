@@ -1,7 +1,7 @@
 $(".navbar li").click(function(){
   $(".navbar li").removeClass("active");
   $(this).addClass("active");
-}); 
+});
 
 $(".title-text li").click(function(){
   $(".navbar li").removeClass("active");
@@ -21,12 +21,12 @@ $(".navbar-left img").css("width",(.90 * $height));
 // Create array with portfolio link info
 //
 $links = [
-//    {
-  //      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
-    //    url:"https://couchpolitics.herokuapp.com/",
-      //  title: "CouchPolitics Social Network",
- //       text:"Full Stack app using React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter API news feeds by ideology. With link sharing, privacy settings, user ranking and much more."
-   // },
+   {
+       photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
+       url:"https://couchpolitics.herokuapp.com/",
+       title: "CouchPolitics Social Network",
+       text:"Full Stack app using React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter API news feeds by ideology. With link sharing, privacy settings, user ranking and much more."
+   },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_564/v1489470677/Untitled_picture_c8abxv.jpg",
         url:"https://smartset-7a283.firebaseapp.com/",
