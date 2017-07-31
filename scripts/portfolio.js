@@ -22,7 +22,7 @@ $(".navbar-left img").css("width",(.90 * $height));
 //
 $links = [
   {
-      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_440/v1501532764/DC_6_osgewu.png",
+      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_550/v1501533478/DC_6_irbfjo.png",
       url:"http://dcopenhouselist.com",
       title: "DC's Open House List",
       text:"Full Stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
