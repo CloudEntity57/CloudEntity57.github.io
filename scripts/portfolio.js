@@ -21,10 +21,16 @@ $(".navbar-left img").css("width",(.90 * $height));
 // Create array with portfolio link info
 //
 $links = [
+  {
+      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_440/v1501532764/DC_6_osgewu.png",
+      url:"http://dcopenhouselist.com",
+      title: "DC's Open House List",
+      text:"Full Stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
+  },
    {
        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
        url:"https://couchpolitics.herokuapp.com/",
-       title: "CouchPolitics Social Network",
+       title: "Facebook Imitator",
        text:"Full Stack app using React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter API news feeds by ideology. With link sharing, privacy settings, user ranking and much more."
    },
     {
@@ -36,7 +42,7 @@ $links = [
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_544/v1491262402/SpotifyBrowser_f8qpax.png",
         url: "http://spotifybrowser.firebaseapp.com",
-        title: "Spotify Speed Browser",
+        title: "Spotify Speed Browser (now requires auth)",
         text:"Single page React.js/Firebase app browses Spotify by artist, displays albums/tracks, plays sample clips, and allows album toggling. Navigation using browser back button enabled with React Router."
     },
 {
