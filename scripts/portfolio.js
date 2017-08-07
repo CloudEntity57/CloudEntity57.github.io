@@ -30,7 +30,7 @@ $links = [
    {
        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
        url:"https://couchpolitics.herokuapp.com/",
-       title: "Facebook Imitator",
+       title: "Facebook Clone",
        text:"Full Stack app using React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter API news feeds by ideology. With link sharing, privacy settings, user ranking and much more."
    },
     {
