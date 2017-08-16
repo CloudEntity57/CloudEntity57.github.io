@@ -25,13 +25,13 @@ $links = [
       photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_550/v1501533478/DC_6_irbfjo.png",
       url:"http://dcopenhouselist.com",
       title: "DC's Open House List",
-      text:"Full Stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
+      text:"Full stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
   },
    {
        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
        url:"https://couchpolitics.herokuapp.com/",
-       title: "Facebook Clone",
-       text:"Full Stack app using React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter API news feeds by ideology. With link sharing, privacy settings, user ranking and much more."
+       title: "Phacebook",
+       text:"Full stack Facebook 'clone' built w React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter newsfeed by liberal/conservative. With link sharing, privacy settings, wall posting and more."
    },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_564/v1489470677/Untitled_picture_c8abxv.jpg",
