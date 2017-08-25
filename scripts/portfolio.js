@@ -30,7 +30,7 @@ $links = [
    {
        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
        url:"https://couchpolitics.herokuapp.com/",
-       title: "Phacebook",
+       title: "Cloudergy",
        text:"Full stack Facebook 'clone' built w React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter newsfeed by liberal/conservative. With link sharing, privacy settings, wall posting and more."
    },
     {
