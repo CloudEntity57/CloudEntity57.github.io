@@ -23,22 +23,22 @@ $(".navbar-left img").css("width",(.90 * $height));
 $links = [
   {
       photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_550/v1501533478/DC_6_irbfjo.png",
-      url:"http://dcopenhouselist.com",
+      url:"https://dcopenhouselist.herokuapp.com",
       title: "DC's Open House List",
       text:"Full stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
   },
+   {
+       photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_564/v1489470677/Untitled_picture_c8abxv.jpg",
+       url:"https://smartset-7a283.firebaseapp.com/",
+       title: "SmartSet Musician Gig Generator",
+       text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
+   },
    {
        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
        url:"https://couchpolitics.herokuapp.com/",
        title: "Cloudergy",
        text:"Full stack Facebook 'clone' built w React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter newsfeed by liberal/conservative. With link sharing, privacy settings, wall posting and more."
    },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_564/v1489470677/Untitled_picture_c8abxv.jpg",
-        url:"https://smartset-7a283.firebaseapp.com/",
-        title: "SmartSet Musician Gig Generator",
-        text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
-    },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_544/v1491262402/SpotifyBrowser_f8qpax.png",
         url: "http://spotifybrowser.firebaseapp.com",
