@@ -83,7 +83,6 @@ body{
 }
 .portfolio-text{
   margin:0em 3em;
-  height:20vh;
 }
 .portfolio-title{
   margin:10px 0px;
@@ -171,9 +170,7 @@ body{
 }
 
 @media (max-width: 768px) {
-  .portfolio-text{
-    height:15vh;
-  }
+
 }
 /* Heliowire styles */
 .glyphicon{
