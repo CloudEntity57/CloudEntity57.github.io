@@ -22,8 +22,8 @@ $(".navbar-left img").css("width",(.90 * $height));
 //
 $links = [
   {
-      // photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_550/v1501533478/DC_6_irbfjo.png",
-      photo: "../images/DCOpenHouse.gif",
+      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_550/v1501533478/DC_6_irbfjo.png",
+      // photo: "../images/DCOpenHouse.gif",
       url:"https://dcopenhouselist.herokuapp.com/#/search/sunday/FullDCArea",
       title: "DC's Open House List",
       text:"Full stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
@@ -107,7 +107,7 @@ console.log('doing something');
 function populate_portfolio(area,links,x){
 
 
-  var links = ["<div class='portfolio-entry link col-xs-12 col-md-6'>",
+  var links = ["<div class='portfolio-entry link col-xs-12 col-md-12'>",
             "<div class='link-title'></div><a href = '",
              links[x].url,"' title = '",links[x].title,"'><div class = 'portfolio-image' style = 'background-image:url(",links[x].photo,")' alt='", links[x].title, "'></div>",
              "<div class='portfolio-title'>", links[x].title, "</div>",
