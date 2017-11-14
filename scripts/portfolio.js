@@ -3,8 +3,17 @@ $(".navbar li").click(function(){
   $(this).addClass("active");
 });
 
+$(".title-text li").click(function(){
+  $(".navbar li").removeClass("active");
+});
 
-
+//add parallax to scrolling title image:
+$('.title-bar').parallax(
+  {
+    imageSrc: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/a_auto_right,c_scale,w_710/v1490335359/IMG_9417_mzqos1.jpg"
+  }
+);
+$('.title-bar').css('top','110px');
 $height = $('.navbar').height();
 
 $(".navbar-left img").css("width",(.90 * $height));
@@ -12,7 +21,36 @@ $(".navbar-left img").css("width",(.90 * $height));
 // Create array with portfolio link info
 //
 $links = [
-
+  {
+      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_550/v1501533478/DC_6_irbfjo.png",
+      // photo: "../images/DCOpenHouse.gif",
+      url:"https://dcopenhouselist.herokuapp.com/#/search/sunday/FullDCArea",
+      title: "DC's Open House List",
+      text:"Full stack real estate search app - uses React/Express stack. Searches Washington DC area for open houses, maps by day, sorts by price, time, days on market. Features photo carousel, contact form, custom CSS animated buttons."
+  },
+   {
+       photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_564/v1489470677/Untitled_picture_c8abxv.jpg",
+       url:"https://smartset-7a283.firebaseapp.com/",
+       title: "SmartSet Musician Gig Generator",
+       text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
+   },
+   {
+       photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_563/v1497474684/CouchPolitics_rt2ufw.png",
+       url:"https://couchpolitics.herokuapp.com/",
+       title: "Cloudergy",
+       text:"Full stack Facebook 'clone' built w React/Redux + Node/Express. Imitates core Facebook functionality. User posts, comments, likes, pages, friend-making. Also filter newsfeed by liberal/conservative. With link sharing, privacy settings, wall posting and more."
+   },
+    {
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_544/v1491262402/SpotifyBrowser_f8qpax.png",
+        url: "http://spotifybrowser.firebaseapp.com",
+        title: "Spotify Speed Browser (now requires auth)",
+        text:"Single page React.js/Firebase app browses Spotify by artist, displays albums/tracks, plays sample clips, and allows album toggling. Navigation using browser back button enabled with React Router."
+    },
+{
+        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,h_327/v1495221822/Redux_Leaflet_gj7xpa.png",
+        url: "https://reduxleafletapp.firebaseapp.com/",
+        title: "Redux Leaflet App",
+        text:"React/Redux single page app that connects to the Leaflet Maps API using React-Leaflet.js and components from the Material-UI library."    },
     {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689200/Allen_Brothers_cl4nrz.jpg",
         url: "http://allenb.com",
@@ -20,30 +58,33 @@ $links = [
         text:"PHP driven responsive site for real estate brokerage. Includes a form that emails submissions to owner while protecting against cross-site scripting attacks."
     },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/c_scale,w_373/v1487384049/FatGiggler_uor5zg.png",
-        url: "https://smartset-7a283.firebaseapp.com",
-        title: "Musician's Gig Generator",
-        text:"Project in React.js and Firebase that stores a user's songs and automatically generates performances of different lengths and set numbers, according to desired genres. This allows a user to quickly plan a long show with sublime songs, or a short show with upbeat songs."
-    },
-    {
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487626184/GistAlt_cbtify.png",
         url: "https://notesapp-edb56.firebaseapp.com",
         title: "Developer Notes Tool",
-        text:"A searchable database of all your individual notes appears when you log in, and it's easy to assign web-related color categories to notes as you create them. Built with React.js and Firebase."
+        text:"(Team project) A searchable database of all your individual notes appears when you log in, and it's easy to assign web-related color categories to notes as you create them. Built with React.js and Firebase."
     },
+    //{
+      //  photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
+        //url: "https://cryptic-peak-65100.herokuapp.com/",
+       // title: "Favorite Albums Bulletin Board",
+        //text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
+   // },
+//    {
+  //      photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
+    //    url: "https://frozen-journey-83037.herokuapp.com/index.php",
+      //  title: "Heliowire.com",
+        // text:"PHP driven responsive template for a solar energy news hub. Currently connects to Reddit Solar News API and displays the latest feed."
+   // },
     {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484279891/Web_Shot2_qeptqh.png",
-        url: "https://cryptic-peak-65100.herokuapp.com/",
-        title: "Favorite Albums Bulletin Board",
-        text:"Online UI database where a user's favorite albums can be stored/displayed via a RESTful CRUD database built with Express.js and MongoDB."
-    },
-    {
+<<<<<<< HEAD
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1475689308/Heliowire_xsw4a7.jpg",
         url: "https://frozen-journey-83037.herokuapp.com/index.php",
         title: "Heliowire.com",
         text:"PHP driven responsive template for a solar energy news hub. Currently connects to Reddit Solar News API and displays the latest feed."
     },
     {
+=======
+>>>>>>> bd74aa08c36a7ef811f750de4061b05cb525d2c2
         photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1487829847/clouds_lvmllc.png",
         url: "/3x+1/3x+1.htm",
         title: "Collatz Conjecture",
@@ -66,16 +107,8 @@ $links = [
         url: "http://allenbrothersrealtors.com/Home",
         title: "Coming Soon",
         text:"Many more projects in the works at all times!"
-    },
-    {
-        photo: "http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1476122562/IMG_5141-compressed_eorbdj.jpg",
-        url: "http://allenbrothersrealtors.com/Home",
-        title: "Coming Soon",
-        text:"Many more projects in the works at all times!"
     }
 ];
-http://res.cloudinary.com/middle-renaissance-realty-llc/image/upload/v1484250781/Fav_albums_img_riuqav.png
-//Populate the portfolio with links
 
 var $portfolio_area = $('.links');
 
@@ -83,7 +116,7 @@ console.log('doing something');
 function populate_portfolio(area,links,x){
 
 
-  var links = ["<div class='portfolio-entry link col-xs-12 col-md-6'>",
+  var links = ["<div class='portfolio-entry link col-xs-12 col-md-12'>",
             "<div class='link-title'></div><a href = '",
              links[x].url,"' title = '",links[x].title,"'><div class = 'portfolio-image' style = 'background-image:url(",links[x].photo,")' alt='", links[x].title, "'></div>",
              "<div class='portfolio-title'>", links[x].title, "</div>",
@@ -99,19 +132,30 @@ function populate_portfolio(area,links,x){
     }
 
 
-for(i=0; i<= $links.length-1; i++){
+for(i=0; i< $links.length-1; i++){
 
   populate_portfolio($portfolio_area,$links,i);
 
 };
 
+//If there are less than 6 entries, populate difference with 'coming soon' windows:
+
 if($links.length < 6){
+        let i = $links.length-1
         $extra = 6-$links.length;
         for(x=0;x<=$extra;x++){
-            populate_portfolio($portfolio_area,$links,0);
+            populate_portfolio($portfolio_area,$links,i);
         };
     };
+//fill empty gap in case of odd number of links:
 
+if($links.length%2 !==1){
+  let i = $links.length-1;
+  populate_portfolio($portfolio_area,$links,i);
+}
+
+
+//
 $('a').on('click',function(e){
         e.preventDefault();
         if(/^#/.test($(this).attr('href'))){
@@ -149,3 +193,35 @@ $('a').on('click',function(e){
 //     };
 //         i = 0;
 // };
+
+//create prime number generator
+
+// let makePrimes = (num)=>{
+//   let primes = [1];
+//   let prime = false;
+//   let candidate = 2;
+//   let divisor = 2;
+//   for(let i=1; i<=num; i++){
+//       while(!prime){
+//         //go up from 1
+//         while((candidate/divisor)%1 !== 0){
+//           divisor++;
+//         }
+//         //check if divisor made it to candidate (thus a prime)
+//         if(candidate===divisor){
+//           primes.push(candidate);
+//           candidate++;
+//           prime=true;
+//           divisor = 2;
+//         }else{
+//           candidate++;
+//           divisor=2;
+//         }
+//       }
+//       prime = false;
+//   }
+//   console.log(primes);
+//   return primes;
+// }
+// //make the first 6000 prime numbers:
+// makePrimes(6000);
